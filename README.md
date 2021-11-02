@@ -34,12 +34,15 @@ Things you may want to cover:
       username: postgres
       
 ## Gems added
-    * gem 'pry-byebug'
-    * gem 'factory_bot_rails'
-    * gem 'faker'
-    * gem 'rspec-rails'
-    * gem 'database_cleaner-active_record'
-    * gem 'shoulda-matchers', '~> 5.0'
+    gem 'pry-byebug'
+    gem 'factory_bot_rails'
+    gem 'faker'
+    gem 'rspec-rails'
+    gem 'database_cleaner-active_record'
+    gem 'shoulda-matchers', '~> 5.0'
+    gem 'active_interaction', '~> 4.0'
+    gem 'bcrypt'
+    gem 'bundler'
 
 
 ## Getting started
