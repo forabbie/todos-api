@@ -28,10 +28,11 @@ Things you may want to cover:
 
 ## Configuration
 * `config/database.yml`
-      adapter: postgresql
-      encoding: unicode
-      pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-      username: postgres
+    
+    adapter: postgresql
+    encoding: unicode
+    pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+    username: postgres
       
 ## Gems added
     gem 'pry-byebug'
