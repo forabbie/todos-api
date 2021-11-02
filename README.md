@@ -26,5 +26,27 @@ Things you may want to cover:
 ## Installation
     Run `rails new todos-api --api -T -d postgres`
 
+## Configuration
+* `config/database.yml`
+      adapter: postgresql
+      encoding: unicode
+      pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+      username: postgres
+      
+## Gems added
+    * gem 'pry-byebug'
+    * gem 'factory_bot_rails'
+    * gem 'faker'
+    * gem 'rspec-rails'
+    * gem 'database_cleaner-active_record'
+    * gem 'shoulda-matchers', '~> 5.0'
+
+
+## Getting started
+* in the root of the repository
+      bundle install
+      rails db:create
+      rails db:seed
+      rspec
 
 
